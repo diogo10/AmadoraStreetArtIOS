@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1164555F6E8C0BF97A584AED /* Pods_StreetArt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C585488D473B5FCFAD87D9E1 /* Pods_StreetArt.framework */; };
+		2A18ED9F2226BBE2006E225E /* ImagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A18ED9E2226BBE2006E225E /* ImagesCollectionViewController.swift */; };
+		2A18EDA12226E6C5006E225E /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A18EDA02226E6C5006E225E /* InfoTableViewController.swift */; };
+		2A18EDA32226EC58006E225E /* BaseUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A18EDA22226EC58006E225E /* BaseUITableViewController.swift */; };
+		2A5C96C82225585300E2A66A /* ArteUrbana.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A5C96C72225585300E2A66A /* ArteUrbana.json */; };
+		2A5C96CA2225588000E2A66A /* StreetArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C96C92225588000E2A66A /* StreetArt.swift */; };
+		2A5C96CE222572DB00E2A66A /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A5C96CD222572DB00E2A66A /* CardView.xib */; };
+		2A5C96D0222576D400E2A66A /* CardOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C96CF222576D400E2A66A /* CardOverlayView.swift */; };
+		2A80DDB6222595F1002098DD /* ArtDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80DDB5222595F1002098DD /* ArtDetailViewController.swift */; };
+		2A80DDB82225AAB2002098DD /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80DDB72225AAB2002098DD /* Artwork.swift */; };
+		2A80DDC02226AF41002098DD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80DDBF2226AF41002098DD /* BaseViewController.swift */; };
+		2AEE8B9C22244F760026F320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE8B9B22244F760026F320 /* AppDelegate.swift */; };
+		2AEE8B9E22244F760026F320 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE8B9D22244F760026F320 /* FirstViewController.swift */; };
+		2AEE8BA022244F760026F320 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE8B9F22244F760026F320 /* SecondViewController.swift */; };
+		2AEE8BA322244F760026F320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEE8BA122244F760026F320 /* Main.storyboard */; };
+		2AEE8BA522244F770026F320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEE8BA422244F770026F320 /* Assets.xcassets */; };
+		2AEE8BA822244F770026F320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEE8BA622244F770026F320 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A18ED9E2226BBE2006E225E /* ImagesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewController.swift; sourceTree = "<group>"; };
+		2A18EDA02226E6C5006E225E /* InfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
+		2A18EDA22226EC58006E225E /* BaseUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITableViewController.swift; sourceTree = "<group>"; };
+		2A5C96C72225585300E2A66A /* ArteUrbana.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ArteUrbana.json; sourceTree = "<group>"; };
+		2A5C96C92225588000E2A66A /* StreetArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetArt.swift; sourceTree = "<group>"; };
+		2A5C96CD222572DB00E2A66A /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		2A5C96CF222576D400E2A66A /* CardOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOverlayView.swift; sourceTree = "<group>"; };
+		2A80DDB5222595F1002098DD /* ArtDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtDetailViewController.swift; sourceTree = "<group>"; };
+		2A80DDB72225AAB2002098DD /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		2A80DDBF2226AF41002098DD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2AEE8B9822244F760026F320 /* StreetArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEE8B9B22244F760026F320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AEE8B9D22244F760026F320 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2AEE8B9F22244F760026F320 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2AEE8BA222244F760026F320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AEE8BA422244F770026F320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AEE8BA722244F770026F320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AEE8BA922244F770026F320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C585488D473B5FCFAD87D9E1 /* Pods_StreetArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetArt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3E0074109B9559049A61C1 /* Pods-StreetArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetArt.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreetArt/Pods-StreetArt.release.xcconfig"; sourceTree = "<group>"; };
+		EEB71D8301DD1EF75653D1B4 /* Pods-StreetArt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetArt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreetArt/Pods-StreetArt.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AEE8B9522244F760026F320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1164555F6E8C0BF97A584AED /* Pods_StreetArt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A80DDBB2226AE7A002098DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A80DDBE2226AF2F002098DD /* Base */,
+				2A80DDBD2226AEA7002098DD /* Custom */,
+				2AEE8B9F22244F760026F320 /* SecondViewController.swift */,
+				2AEE8B9D22244F760026F320 /* FirstViewController.swift */,
+				2A80DDB5222595F1002098DD /* ArtDetailViewController.swift */,
+				2A18ED9E2226BBE2006E225E /* ImagesCollectionViewController.swift */,
+				2A18EDA02226E6C5006E225E /* InfoTableViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2A80DDBC2226AE84002098DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C96C92225588000E2A66A /* StreetArt.swift */,
+				2A80DDB72225AAB2002098DD /* Artwork.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2A80DDBD2226AEA7002098DD /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C96CF222576D400E2A66A /* CardOverlayView.swift */,
+				2A5C96CD222572DB00E2A66A /* CardView.xib */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		2A80DDBE2226AF2F002098DD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2A80DDBF2226AF41002098DD /* BaseViewController.swift */,
+				2A18EDA22226EC58006E225E /* BaseUITableViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		2AEE8B8F22244F760026F320 = {
+			isa = PBXGroup;
+			children = (
+				2AEE8B9A22244F760026F320 /* StreetArt */,
+				2AEE8B9922244F760026F320 /* Products */,
+				D89E207DBCA0D30F79E593BF /* Pods */,
+				2C54D446979FBFA1A367CFA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AEE8B9922244F760026F320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AEE8B9822244F760026F320 /* StreetArt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AEE8B9A22244F760026F320 /* StreetArt */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C96C72225585300E2A66A /* ArteUrbana.json */,
+				2AEE8BA422244F770026F320 /* Assets.xcassets */,
+				2AEE8B9B22244F760026F320 /* AppDelegate.swift */,
+				2AEE8BA122244F760026F320 /* Main.storyboard */,
+				2AEE8BA622244F770026F320 /* LaunchScreen.storyboard */,
+				2AEE8BA922244F770026F320 /* Info.plist */,
+				2A80DDBC2226AE84002098DD /* Model */,
+				2A80DDBB2226AE7A002098DD /* View */,
+			);
+			path = StreetArt;
+			sourceTree = "<group>";
+		};
+		2C54D446979FBFA1A367CFA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C585488D473B5FCFAD87D9E1 /* Pods_StreetArt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89E207DBCA0D30F79E593BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEB71D8301DD1EF75653D1B4 /* Pods-StreetArt.debug.xcconfig */,
+				CE3E0074109B9559049A61C1 /* Pods-StreetArt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AEE8B9722244F760026F320 /* StreetArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AEE8BAC22244F770026F320 /* Build configuration list for PBXNativeTarget "StreetArt" */;
+			buildPhases = (
+				3D6DE5518FF48656E32A9454 /* [CP] Check Pods Manifest.lock */,
+				2AEE8B9422244F760026F320 /* Sources */,
+				2AEE8B9522244F760026F320 /* Frameworks */,
+				2AEE8B9622244F760026F320 /* Resources */,
+				C5F00E44BBE6B687D23C2F99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreetArt;
+			productName = StreetArt;
+			productReference = 2AEE8B9822244F760026F320 /* StreetArt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AEE8B9022244F760026F320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Diogo Ribeiro";
+				TargetAttributes = {
+					2AEE8B9722244F760026F320 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2AEE8B9322244F760026F320 /* Build configuration list for PBXProject "StreetArt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AEE8B8F22244F760026F320;
+			productRefGroup = 2AEE8B9922244F760026F320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AEE8B9722244F760026F320 /* StreetArt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AEE8B9622244F760026F320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5C96C82225585300E2A66A /* ArteUrbana.json in Resources */,
+				2AEE8BA822244F770026F320 /* LaunchScreen.storyboard in Resources */,
+				2A5C96CE222572DB00E2A66A /* CardView.xib in Resources */,
+				2AEE8BA522244F770026F320 /* Assets.xcassets in Resources */,
+				2AEE8BA322244F760026F320 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D6DE5518FF48656E32A9454 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreetArt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F00E44BBE6B687D23C2F99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StreetArt/Pods-StreetArt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreetArt/Pods-StreetArt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AEE8B9422244F760026F320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5C96CA2225588000E2A66A /* StreetArt.swift in Sources */,
+				2A18EDA12226E6C5006E225E /* InfoTableViewController.swift in Sources */,
+				2A18ED9F2226BBE2006E225E /* ImagesCollectionViewController.swift in Sources */,
+				2AEE8BA022244F760026F320 /* SecondViewController.swift in Sources */,
+				2A80DDB82225AAB2002098DD /* Artwork.swift in Sources */,
+				2A18EDA32226EC58006E225E /* BaseUITableViewController.swift in Sources */,
+				2A80DDB6222595F1002098DD /* ArtDetailViewController.swift in Sources */,
+				2AEE8B9C22244F760026F320 /* AppDelegate.swift in Sources */,
+				2A80DDC02226AF41002098DD /* BaseViewController.swift in Sources */,
+				2A5C96D0222576D400E2A66A /* CardOverlayView.swift in Sources */,
+				2AEE8B9E22244F760026F320 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AEE8BA122244F760026F320 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEE8BA222244F760026F320 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AEE8BA622244F770026F320 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEE8BA722244F770026F320 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AEE8BAA22244F770026F320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AEE8BAB22244F770026F320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AEE8BAD22244F770026F320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB71D8301DD1EF75653D1B4 /* Pods-StreetArt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8R3QSXMH7;
+				INFOPLIST_FILE = StreetArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = merino.com.br.StreetArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AEE8BAE22244F770026F320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3E0074109B9559049A61C1 /* Pods-StreetArt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8R3QSXMH7;
+				INFOPLIST_FILE = StreetArt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = merino.com.br.StreetArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AEE8B9322244F760026F320 /* Build configuration list for PBXProject "StreetArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEE8BAA22244F770026F320 /* Debug */,
+				2AEE8BAB22244F770026F320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AEE8BAC22244F770026F320 /* Build configuration list for PBXNativeTarget "StreetArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEE8BAD22244F770026F320 /* Debug */,
+				2AEE8BAE22244F770026F320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AEE8B9022244F760026F320 /* Project object */;
+}
