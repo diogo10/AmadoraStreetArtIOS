@@ -4,6 +4,10 @@
  
 Project created for having fun with Swfit 4. The data came from a open source website.
 
+# Demo
+ 
+ ![Screenshot](demo.gif)
+ 
 # Screenshots
 
 ![Screenshot](detail1.png)
