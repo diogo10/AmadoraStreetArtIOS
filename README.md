@@ -4,7 +4,7 @@
  
 Project created for having fun with Swfit 4. The data came from a open source website.
 
-# Printcreen
+# Screenshots
 
 ![Screenshot](detail1.png)
 
